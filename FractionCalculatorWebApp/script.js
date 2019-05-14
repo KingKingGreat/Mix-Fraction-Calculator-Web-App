@@ -1,12 +1,12 @@
 var calcButton = document.getElementById("calcButton");
 
 function onButtonClick() {
-	var wNum1 = parseInt(document.getElementById("wNum1").value);
-	var num1 = parseInt(document.getElementById("num1").value);
-	var den1 = parseInt(document.getElementById("den1").value);
-	var wNum2 = parseInt(document.getElementById("wNum2").value);
-	var num2 = parseInt(document.getElementById("num2").value);
-	var den2 = parseInt(document.getElementById("den2").value);
+	var wNum1 = parseFloat(document.getElementById("wNum1").value);
+	var num1 = parseFloat(document.getElementById("num1").value);
+	var den1 = parseFloat(document.getElementById("den1").value);
+	var wNum2 = parseFloat(document.getElementById("wNum2").value);
+	var num2 = parseFloat(document.getElementById("num2").value);
+	var den2 = parseFloat(document.getElementById("den2").value);
 	var operator = document.getElementById("operator").value;
 	var result;
 
