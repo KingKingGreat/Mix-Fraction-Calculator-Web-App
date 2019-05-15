@@ -8,7 +8,7 @@
 	#eText {
 		color: rgb(255, 0, 0);
 	}
-	input, select, button {
+	input, select {
 		margin: 10px;
 	}
 </style>
